@@ -23,10 +23,6 @@ public class DatabasePersonLoader implements PersonLoader {
     public DatabasePersonLoader(Connection connection) {
         this.connection = connection;
     }
-
-    DatabasePersonLoader(Connection connection) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     
     

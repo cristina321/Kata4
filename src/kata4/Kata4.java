@@ -17,7 +17,7 @@ public class Kata4 {
         DriverManager.registerDriver(new org.sqlite.JDBC());
         //sirve para hacer la conexion con el sqlite
         //-------------------------------------------cadena de conexion
-        return DriverManager.getConnection("jdbc.sqlite:" + dbPath);
+        return DriverManager.getConnection("jdbc:sqlite:" + dbPath);
     }
     
 }
