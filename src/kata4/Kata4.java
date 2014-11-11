@@ -6,6 +6,8 @@ import java.sql.SQLException;
 
 public class Kata4 {
 
+    
+    //definicion del closure
     public static void main(String[] args) throws SQLException{
         Connection connection = createConnection("people.db");
         PersonLoader loader= new DatabasePersonLoader(connection);
